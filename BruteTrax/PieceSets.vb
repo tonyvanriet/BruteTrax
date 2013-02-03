@@ -116,6 +116,64 @@ Public Class BasicSpeedTest5PieceSet
 End Class
 
 
+Public Class BasicSpeedTest6PieceSet
+    Inherits PieceSet
+
+    Public Sub New()
+
+        Me.Add(New Turn3Piece)
+        Me.Add(New Straight3Piece)
+        Me.Add(New Straight3Piece)
+        Me.Add(New Straight3Piece)
+        Me.Add(New Straight3Piece)
+        Me.Add(New Straight3Piece)
+        Me.Add(New Straight3Piece)
+        Me.Add(New Straight3Piece)
+        Me.Add(New Turn3Piece)
+        Me.Add(New Turn3Piece)
+        Me.Add(New Turn3Piece)
+        Me.Add(New Turn3Piece)
+        Me.Add(New Turn3Piece)
+        Me.Add(New Turn3Piece)
+        Me.Add(New Turn3Piece)
+        Me.Add(New Straight3Piece)
+
+        If Me.Count <> 16 Then Throw New Exception
+
+    End Sub
+
+End Class
+
+
+Public Class BasicSpeedTest7PieceSet
+    Inherits PieceSet
+
+    Public Sub New()
+
+        Me.Add(New Turn3Piece)
+        Me.Add(New Straight3Piece)
+        Me.Add(New Turn3Piece)
+        Me.Add(New Straight3Piece)
+        Me.Add(New Straight3Piece)
+        Me.Add(New Straight3Piece)
+        Me.Add(New Straight3Piece)
+        Me.Add(New Straight3Piece)
+        Me.Add(New Straight3Piece)
+        Me.Add(New Straight3Piece)
+        Me.Add(New Turn3Piece)
+        Me.Add(New Turn3Piece)
+        Me.Add(New Turn3Piece)
+        Me.Add(New Turn3Piece)
+        Me.Add(New Turn3Piece)
+        Me.Add(New Turn3Piece)
+
+        If Me.Count <> 16 Then Throw New Exception
+
+    End Sub
+
+End Class
+
+
 
 Public Class CompleteEarlyPieceSet
     Inherits PieceSet

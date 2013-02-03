@@ -8,7 +8,7 @@ Module Module1
         Dim room As New Room
         room.IsLoggingEnabled = False
 
-        room.AddPieces(New BasicSpeedTest4PieceSet)
+        room.AddPieces(New BasicSpeedTest7PieceSet)
 
         Dim sw As New Stopwatch
         sw.Start()
