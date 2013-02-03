@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BruteTrax", "BruteTrax\BruteTrax.vbproj", "{0417425E-99C8-4175-96B9-AE1BA2420817}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BruteTraxSearch", "BruteTraxSearch\BruteTraxSearch.vbproj", "{62914356-5221-439E-BAA4-CB408C9B99EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A56673D4-3CBE-4E14-AA06-CB1EF0087057}"
+	ProjectSection(SolutionItems) = preProject
+		BruteTrax1.vsmdi = BruteTrax1.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BruteTraxTest", "BruteTraxTest\BruteTraxTest.vbproj", "{680537DF-01B3-41C4-83D1-60F08642E799}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = BruteTrax1.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0417425E-99C8-4175-96B9-AE1BA2420817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0417425E-99C8-4175-96B9-AE1BA2420817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0417425E-99C8-4175-96B9-AE1BA2420817}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0417425E-99C8-4175-96B9-AE1BA2420817}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0417425E-99C8-4175-96B9-AE1BA2420817}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0417425E-99C8-4175-96B9-AE1BA2420817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0417425E-99C8-4175-96B9-AE1BA2420817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0417425E-99C8-4175-96B9-AE1BA2420817}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0417425E-99C8-4175-96B9-AE1BA2420817}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0417425E-99C8-4175-96B9-AE1BA2420817}.Release|x86.ActiveCfg = Release|Any CPU
+		{62914356-5221-439E-BAA4-CB408C9B99EB}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{62914356-5221-439E-BAA4-CB408C9B99EB}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{62914356-5221-439E-BAA4-CB408C9B99EB}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{62914356-5221-439E-BAA4-CB408C9B99EB}.Debug|x86.ActiveCfg = Debug|x86
+		{62914356-5221-439E-BAA4-CB408C9B99EB}.Debug|x86.Build.0 = Debug|x86
+		{62914356-5221-439E-BAA4-CB408C9B99EB}.Release|Any CPU.ActiveCfg = Release|x86
+		{62914356-5221-439E-BAA4-CB408C9B99EB}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{62914356-5221-439E-BAA4-CB408C9B99EB}.Release|Mixed Platforms.Build.0 = Release|x86
+		{62914356-5221-439E-BAA4-CB408C9B99EB}.Release|x86.ActiveCfg = Release|x86
+		{62914356-5221-439E-BAA4-CB408C9B99EB}.Release|x86.Build.0 = Release|x86
+		{680537DF-01B3-41C4-83D1-60F08642E799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680537DF-01B3-41C4-83D1-60F08642E799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680537DF-01B3-41C4-83D1-60F08642E799}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{680537DF-01B3-41C4-83D1-60F08642E799}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{680537DF-01B3-41C4-83D1-60F08642E799}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{680537DF-01B3-41C4-83D1-60F08642E799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680537DF-01B3-41C4-83D1-60F08642E799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{680537DF-01B3-41C4-83D1-60F08642E799}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{680537DF-01B3-41C4-83D1-60F08642E799}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{680537DF-01B3-41C4-83D1-60F08642E799}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
