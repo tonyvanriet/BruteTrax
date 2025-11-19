@@ -6,9 +6,11 @@ Module Module1
     Sub Main()
 
         Dim room As New Room
-        room.IsLoggingEnabled = False
+        room.IsLoggingEnabled = True
 
-        room.AddPieces(New BasicSpeedTest7PieceSet)
+        Dim pieceSet = New BasicSpeedTest7PieceSet
+        ' Dim pieceSet = New CompleteEarlyPieceSet
+        room.AddPieces(pieceSet)
 
         Dim sw As New Stopwatch
         sw.Start()
@@ -20,6 +22,5 @@ Module Module1
         Console.ReadLine()
 
     End Sub
-
 
 End Module

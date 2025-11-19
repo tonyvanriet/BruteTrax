@@ -113,12 +113,10 @@ Public Class Room
         End If
 
 
-        'If AllPieces.UnplacedPieces.Count = 0 And Now > _LastFailurePrintTime.AddMinutes(10) Then
         ' Every so often, print out the failing track with all pieces placed
-        If CurrentLevelOfRecursion <= _ShallowestLevelCompletedSinceLastFailurePrint + 1 And Now > _LastFailurePrintTime.AddMinutes(1) Then
+        If Now > _LastFailurePrintTime.AddMinutes(1) Then
 
             _LastFailurePrintTime = Now
-            _ShallowestLevelCompletedSinceLastFailurePrint = AllPieces.Count
 
             Dim s As New System.Text.StringBuilder
             s.Append(String.Format(Now.TimeOfDay.ToString & ": Can't find closed track, {0} pieces left.", AllPieces.UnplacedPieces.Count))
@@ -126,9 +124,6 @@ Public Class Room
             s.AppendLine()
 
             WriteLine(s.ToString)
-
-        Else
-            _ShallowestLevelCompletedSinceLastFailurePrint = Math.Min(_ShallowestLevelCompletedSinceLastFailurePrint, CurrentLevelOfRecursion)
 
         End If
 
