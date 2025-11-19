@@ -151,7 +151,7 @@ Public Class Room
 
     Private Sub WriteLineToFileLog(ByVal value As String)
         If Not IsLoggingEnabled Then Exit Sub
-        My.Application.Log.WriteEntry(value)
+        ' My.Application.Log.WriteEntry(value)
     End Sub
 
 
